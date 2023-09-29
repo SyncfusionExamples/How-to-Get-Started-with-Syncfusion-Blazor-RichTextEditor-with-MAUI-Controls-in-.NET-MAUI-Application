@@ -6,10 +6,11 @@ This article provides a step-by-step guide on creating a .NET MAUI Blazor applic
 **Step 1: Install Required Software**
 
  Ensure that you have the necessary software installed, including Visual Studio with the .NET workload and the .NET MAUI workload.
-•	.NET SDK 6.0 (Latest .NET SDK 6.0.101 or above)
-•	The latest Visual Studio 2022 with the required workloads:
-•	Mobile development with .NET
-•	ASP.NET and web development
+ 
+*	.NET SDK 6.0 (Latest .NET SDK 6.0.101 or above)
+*	The latest Visual Studio 2022 with the required workloads:
+*	Mobile development with .NET
+*	ASP.NET and web development
 
 **Step 2: Create a New .NET MAUI Project**
 
