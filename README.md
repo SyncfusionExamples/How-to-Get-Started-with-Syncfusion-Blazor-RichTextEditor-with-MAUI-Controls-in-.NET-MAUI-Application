@@ -117,3 +117,5 @@ public static class MauiProgram
    }
 }
 ```
+
+<img width="711" alt="Blazor RichTextEditor with MAUI components" src="https://github.com/SyncfusionExamples/How-to-Get-Started-with-Syncfusion-Blazor-RichTextEditor-with-MAUI-Controls-in-.NET-MAUI-Application/assets/61832185/88cf7f4e-183f-46b5-a457-8fc899baa78c">
