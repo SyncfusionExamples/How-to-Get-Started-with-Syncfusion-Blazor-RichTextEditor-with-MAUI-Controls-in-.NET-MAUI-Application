@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Blazor_RichTextEditor_MAUI"
+             x:Class="Blazor_RichTextEditor_MAUI.MainPage"
+             xmlns:inputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs">
+
+    <Grid RowDefinitions="50,50,50,50,50,Auto">
+
+        <Grid ColumnDefinitions="Auto,*,Auto" Background="Navy" Grid.Row="0">
+            <Label Text="Email-Compose" TextColor="White" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Center" Margin="5"/>
+            <HorizontalStackLayout Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center">
+                <Label Text="ATTACH" TextColor="White" FontAttributes="Bold" Margin="5"/>
+                <Label Text="SEND" TextColor="White" FontAttributes="Bold" Margin="5"/>
+            </HorizontalStackLayout>
+        </Grid>
+
+        <Grid ColumnDefinitions="40, *" Grid.Row="1">
+            <Label Text="To" TextColor="Gray" Margin="5" VerticalOptions="Center"/>
+            <inputs:SfAutocomplete Grid.Column="1" Margin="5" VerticalOptions="Center"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="40, *" Grid.Row="2">
+            <Label Text="Cc" TextColor="Gray" Margin="5" VerticalOptions="Center"/>
+            <inputs:SfAutocomplete Grid.Column="1" Margin="5" VerticalOptions="Center"/>
+        </Grid>
+
+        <Grid ColumnDefinitions="40, *" Grid.Row="3">
+            <Label Text="Bcc" TextColor="Gray" Margin="5" VerticalOptions="Center"/>
+            <inputs:SfAutocomplete Grid.Column="1" Margin="5" VerticalOptions="Center"/>
+        </Grid>
+
+        <inputs:SfAutocomplete Grid.Row="4" Placeholder="Subject" Margin="5" VerticalOptions="Center"/>
+
+        <BlazorWebView x:Name="blazorWebView" Grid.Row="5" HeightRequest="300" HostPage="wwwroot/index.html">
+            <BlazorWebView.RootComponents>
+                <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
+            </BlazorWebView.RootComponents>
+        </BlazorWebView>
+
+
+    </Grid>
+
+</ContentPage>
