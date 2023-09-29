@@ -58,7 +58,7 @@ Make sure that the version in the URLs matches the version of the Syncfusion Bla
 *	For Blazor WebAssembly application, refer style sheet inside the <head> of wwwroot/index.html file.
 *	For Blazor Server application, refer style sheet inside the <head> of
    * ~/Pages/_Host.cshtml file for .NET 3, .NET 5 and .NET 7.
-   *	 ~/Pages/_Layout.cshtml for .NET 6.
+   *	~/Pages/_Layout.cshtml for .NET 6.
 
 **Step 4: Add Script Reference**
 
