@@ -57,8 +57,8 @@ Make sure that the version in the URLs matches the version of the Syncfusion Bla
 >Note: 
 *	For Blazor WebAssembly application, refer style sheet inside the <head> of wwwroot/index.html file.
 *	For Blazor Server application, refer style sheet inside the <head> of
-   o	 ~/Pages/_Host.cshtml file for .NET 3, .NET 5 and .NET 7.
-   o	 ~/Pages/_Layout.cshtml for .NET 6.
+   * ~/Pages/_Host.cshtml file for .NET 3, .NET 5 and .NET 7.
+   *	 ~/Pages/_Layout.cshtml for .NET 6.
 
 **Step 4: Add Script Reference**
 
@@ -75,8 +75,8 @@ Similarly, add the script reference to the Blazor application. You can add the s
 >Note: 
 *	For Blazor WebAssembly application, refer style sheet inside the <head> of wwwroot/index.html file.
 *	For Blazor Server application, refer style sheet inside the <head> of
-  o	~/Pages/_Host.cshtml file for .NET 3, .NET 5 and .NET 7.
-  o	~/Pages/_Layout.cshtml for .NET 6.
+  *	~/Pages/_Host.cshtml file for .NET 3, .NET 5 and .NET 7.
+  *	~/Pages/_Layout.cshtml for .NET 6.
 
 **Step 5: Add Blazor RichTextEditor**
 
